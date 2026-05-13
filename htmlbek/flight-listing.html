@@ -1,4 +1,4 @@
-<!doctype html>
+[13.05.2026 16:47] Frontend Developers 2026: <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -37,7 +37,10 @@
           <ul>
             <li><i class="fa-solid fa-heart"></i><a href="#">Favourites</a></li>
             <li>
-              <img src="../assest/img/photo_2026-03-25_15-00-56.jpg" alt="" /><a href="#">John D.</a>
+              <img
+                src="../assest/img/Admin-Profile-Vector-PNG-Clipart.png"
+                alt=""
+              /><a href="#">John D.</a>
             </li>
           </ul>
         </div>
@@ -69,64 +72,134 @@
       </fieldset>
       <button><i class="fa-solid fa-search"></i></button>
     </form>
-
+    [13.05.2026 16:47] Frontend Developers 2026:
     <!-- filters -->
-    <div class="filter">
-      <h3>Filters</h3>
-      <details>
-        <summary>Price</summary>
-        <input type="range" name="" id="" />
-        <ul>
-          <li>$50</li>
-          <li>$1200</li>
-        </ul>
-      </details>
-      <details>
-        <summary>Departure Time</summary>
-        <input type="range" name="" id="" />
-        <ul>
-          <li>12:01 AM</li>
-          <li>11:56 PM</li>
-        </ul>
-      </details>
-      <details>
-        <summary>Rating</summary>
-        <button>0+</button>
-        <button>1+</button>
-        <button>2+</button>
-        <button>3+</button>
-        <button>4+</button>
-      </details>
-      <details>
-        <summary>Airlens</summary>
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Emirated</label
-        >
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Emirated</label
-        >
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Emirated</label
-        >
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Emirated</label
-        >
-      </details>
-      <details>
-        <summary>Trips</summary>
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Round trip</label
-        >
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Emirated</label
-        >
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Emirated</label
-        >
-        <label for="em"
-          ><input type="checkbox" name="" id="em" /> Emirated</label
-        >
-      </details>
+    <div class="filters">
+      <div class="filter">
+        <h3>Filters</h3>
+        <details>
+          <summary>Price</summary>
+          <input type="range" name="" id="" />
+          <ul>
+            <li>$50</li>
+            <li>$1200</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Departure Time</summary>
+          <input type="range" name="" id="" />
+          <ul>
+            <li>12:01 AM</li>
+            <li>11:56 PM</li>
+          </ul>
+        </details>
+        <details class="rating">
+          <summary>Rating</summary>
+          <button>0+</button>
+          <button>1+</button>
+          <button>2+</button>
+          <button>3+</button>
+          <button>4+</button>
+        </details>
+        <details class="airlens">
+          <summary>Airlens</summary>
+          <div class="airlens-in">
+            <div>
+              <input type="checkbox" name="" id="em" />
+              <label for="em"> Emirated</label>
+            </div>
+            <div>
+              <input type="checkbox" name="" id="em" />
+              <label for="em"> Fly Dubai</label>
+            </div>
+            <div>
+              <input type="checkbox" name="" id="em" />
+              <label for="em"> Qatar</label>
+            </div>
+            <div>
+              <input type="checkbox" name="" id="em" />
+              <label for="em"> Etihad</label>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary>Trips</summary>
+          <label for="em"
+            ><input type="checkbox" name="" id="em" /> Round trip</label
+          >
+          <label for="em"
+            ><input type="checkbox" name="" id="em" /> On Way</label
+          >
+          <label for="em"
+            ><input type="checkbox" name="" id="em" /> Multi-City</label
+          >
+          <label for="em"
+            ><input type="checkbox" name="" id="em" /> My Dates Are
+            Flexible</label
+          >
+        </details>
+      </div>
+      <div class="line"></div>
+      <div class="filter-cards">
+        <div class="filter-sort">
+          <div class="filter-sort-card">
+            <h3>Cheapest</h3>
+            <span>$99 . 2h 18m</span>
+          </div>
+          <div class="filter-sort-line"></div>
+          <div class="filter-sort-card best">
+            <h3>Best</h3>
+            <span>$99 . 2h 18m</span>
+          </div>
+          <div class="filter-sort-line"></div>
+          <div class="filter-sort-card">
+            <h3>Quickest</h3>
+            <span>$99 . 2h 18m</span>
+          </div>
+          <div class="filter-sort-line"></div>
+          <div class="filter-sort-othercard">
+            <span><i class="fa-solid fa-bars"></i>Other sort</span>
+          </div>
+        </div>
+        <div class="filter-show">
+          <div class="filter-show-left">
+            <b>Showing 4 of <span>257places</span></b>
+          </div>
+          <div class="filter-show-right">
+            <span
+              >Sort by <b>Recomended</b> <i class="fa-solid fa-chevron-down"></i
+            ></span>
+          </div>
+        </div>
+        <div class="card-filter">
+          <div class="card-filter-left">
+            <img src="../assest/img/fa7a7b30507a76a5fb381349747966551fc46c61.png" alt="" />
+          </div>
+          <div class="card-filter-right"></div>
+        </div>
+        <!-- 2 -->
+        <div class="card-filter">
+          <div class="card-filter-left">
+            <img src="../assest/img/fa7a7b30507a76a5fb381349747966551fc46c61.pngx`` " alt="" />
+          </div>
+          <div class="card-filter-right"></div>
+        </div>
+        <!-- 3 -->
+        <div class="card-filter">
+          <div class="card-filter-left">
+            <img src="../assest/img/fa7a7b30507a76a5fb381349747966551fc46c61.pngx`` " alt="" />
+          </div>
+          <div class="card-filter-right"></div>
+        </div>
+        <!-- 4 -->
+        <div class="card-filter">
+          <div class="card-filter-left">
+            <img src="../assest/img/fa7a7b30507a76a5fb381349747966551fc46c61.pngx`` " alt="" />
+          </div>
+          <div class="card-filter-right"></div>
+        </div>
+        <button>Show more results</button>
+      </div>
     </div>
   </body>
 </html>
